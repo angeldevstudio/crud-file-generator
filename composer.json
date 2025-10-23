@@ -1,0 +1,36 @@
+{
+    "name": "angeldev/crud-generator",
+    "description": "Automatic CRUD generator for Laravel.",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^10.0|^11.0|^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AngelDev\\CrudGenerator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AngelDev\\CrudGenerator\\CrudGeneratorServiceProvider"
+            ]
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Angel Iglesias",
+            "email": "angeledu.igle.22@gmail.com"
+        }
+    ],
+    "scripts": {
+        "post-install-cmd": [
+            "AngelDev\\CrudGenerator\\Installer::afterInstall"
+        ],
+        "post-update-cmd": [
+            "AngelDev\\CrudGenerator\\Installer::afterInstall"
+        ]
+    },
+    "minimum-stability": "dev"
+}
