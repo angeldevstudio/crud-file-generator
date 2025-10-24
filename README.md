@@ -1,6 +1,6 @@
-**CRUD Generator**
+**CRUD File Generator**
 
-**CRUD Generator** automatiza la creación de archivos necesarios para un **CRUD** en proyectos Laravel. Con un solo comando **php artisan make:crud <nombre>**, se generan automáticamente el Controlador, Modelo y Migración correspondientes, optimizando el flujo de trabajo y permitiendo que los desarrolladores se concentren en la lógica de negocio.
+**CRUD File Generator** automatiza la creación de archivos necesarios para un **CRUD** en proyectos Laravel. Con un solo comando **php artisan make:crud <nombre>**, se generan automáticamente el Controlador, Modelo y Migración correspondientes, optimizando el flujo de trabajo y permitiendo que los desarrolladores se concentren en la lógica de negocio.
 
 **Instalación**
 
